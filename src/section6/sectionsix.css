@@ -1,0 +1,69 @@
+.section-six{
+    background-image: url('./banner1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-six-content{
+    padding: 50px 10px 0px;
+}
+
+.section-six-header{
+    text-align: center;
+}
+
+.section-six-header > span{
+    font-size: 30px;
+    font-weight: bold;
+    color: #742f06;
+    font-family: "Alfa Slab One", serif;
+    text-transform: capitalize;
+}.section-six-header > p{
+    font-size: 12px;
+    /* font-weight: bold; */
+    color: #742f06;
+    font-family: "Alfa Slab One", serif;
+    text-transform: capitalize;
+}
+
+.sec6_mini_card_container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.sec6_mini_card{
+    border-right: 5px solid #000;
+    border-bottom: 5px solid #000;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-radius: 15px;
+    width: 150px;
+    padding: 20px;
+}
+
+.sec6_mini_card > span{
+    color: #742f06;
+    font-size: 15px;
+    font-family: "Alfa Slab One", serif;
+}
+.sec6_mini_card > p{
+    color: #d4722b;
+    font-size: 15px;
+    font-family: "Alfa Slab One", serif;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .sec6_mini_card_container{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
