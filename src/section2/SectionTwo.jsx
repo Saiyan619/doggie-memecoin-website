@@ -6,10 +6,10 @@ const SectionTwo = () => {
     <div>
        <div className='section_two'>
               <div className='section_two_hero_text'>
-                  <span>How to start</span>
-                  <h3>How to buy tokens</h3>
+                  <span>Get It Now On</span>
+                  <h3>Get It Now </h3>
                   <p>
-                       combines the thrill of exploration with a tight-knit, frosty community. Our low transaction fees,<br/> NFT opportunities, and sense of adventure make us unique.
+                 combines the thrill of exploration with a tight-knit, frosty community. Our low transaction fees,<br/> NFT opportunities, and sense of adventure make us unique.
                   </p>
               </div>
 

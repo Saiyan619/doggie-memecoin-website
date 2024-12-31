@@ -1,7 +1,31 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import './sectionfive.css';
 
-const SectionFive = () => {
+const Roadmap = () => {
+  const timelineRef = useRef(null);
+
+  useEffect(() => {
+    const observerCallback = (entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = "1";
+          entry.target.style.transform = "translateY(0)";
+        }
+      });
+    };
+
+    const observerOptions = {
+      threshold: 0.1
+    };
+
+    const observer = new IntersectionObserver(observerCallback, observerOptions);
+
+    const timelineItems = timelineRef.current.querySelectorAll('.content-box');
+    timelineItems.forEach(item => observer.observe(item));
+
+    return () => observer.disconnect();
+  }, []);
+
   const phases = [
     {
       phase: "Q1 2024",
@@ -31,20 +55,20 @@ const SectionFive = () => {
 
   return (
     <div className="roadmap-container">
-      <h6 className="roadmap-title">Our Roadmap</h6>
-      <div className="timeline-container">
+      <span className="roadmap-title">Our Roadmap</span>
+      <div className="timeline-container" ref={timelineRef}>
         <div className="center-line" />
         {phases.map((phase, index) => (
           <div key={index} className={`timeline-item ${phase.side}`}>
             <div className="timeline-dot" />
             <div className="content-box">
-              <h2 className="phase-title">{phase.phase}</h2>
-              <h3 className="phase-subtitle">{phase.title}</h3>
-              <ul className="phase-list">
+              <span className="phase-title">{phase.phase}</span>
+              <span className="phase-subtitle">{phase.title}</span>
+              <div className="phase-list">
                 {phase.items.map((item, i) => (
                   <li key={i} className="phase-list-item">{item}</li>
                 ))}
-              </ul>
+              </div>
             </div>
           </div>
         ))}
@@ -53,4 +77,4 @@ const SectionFive = () => {
   );
 };
 
-export default SectionFive;
+export default Roadmap;

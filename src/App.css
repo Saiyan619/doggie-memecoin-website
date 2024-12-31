@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  position: relative;
+  /* position: relative; */
 }
 
 .test_Navi{
@@ -24,7 +24,7 @@ body {
   .test_Navi{
     padding: 20px;
     position: fixed;
-    width: 100%;
+    width: 90%;
     z-index: 10000;
   }
 }

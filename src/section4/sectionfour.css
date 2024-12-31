@@ -4,6 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+    /* position: relative; */
 }
 
 .sub_section_four{
@@ -49,4 +50,28 @@
     font-weight: bolder;
     font-size: 18px;
     font-family: "Alfa Slab One", serif;
+}
+
+@media only screen and (max-width: 800px) {
+    .section_four{
+        background-image: url('./counter-bg.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        padding: 10px;
+        position: relative;
+    }
+    .sub_section_four{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        /* padding-top: 130px; */
+        /* background-color: white; */
+        
+    }
+    
 }

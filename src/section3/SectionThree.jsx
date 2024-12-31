@@ -3,8 +3,8 @@ import './sectionthree.css'
 
 const SectionThree = () => {
   return (
-    <div>
-          <div className='section_three'>
+    <div className='section_three'>
+          <div className='sub_section_three'>
               
               <div className='section_three_img_container'>
                   <img className='section_three_img' src="./about_me_img.png" alt="about me img" />
