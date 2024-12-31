@@ -23,18 +23,18 @@ const SectionOne = () => {
                       <img src="./1.png" alt="" />
                   </div>
                   <div className='card'>
-                  <span>Connect your wallet</span>
+                  <span>Exchange some eth</span>
                   <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur molestias, delectus expedita quas asperiores amet numquam? A nostrum excepturi recusandae placeat sit quo nihil consequuntur quia quae, in omnis id?
                       </p>
-                      <img src="./1.png" alt="" />
+                      <img src="./2.png" alt="" />
                   </div>
                   <div className='card'>
-                  <span>Connect your wallet</span>
+                  <span>Start buying</span>
                   <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur molestias, delectus expedita quas asperiores amet numquam? A nostrum excepturi recusandae placeat sit quo nihil consequuntur quia quae, in omnis id?
                       </p>
-                      <img src="./1.png" alt="" />
+                      <img src="./3.png" alt="" />
                   </div>
                   
                   

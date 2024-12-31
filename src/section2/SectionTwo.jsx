@@ -21,15 +21,15 @@ const SectionTwo = () => {
                   </div>
 
                        <div className='mini_card'>
-                      <span>BINANCE</span>
+                      <span>BYBIT</span>
                   </div>
 
                        <div className='mini_card'>
-                      <span>BINANCE</span>
+                      <span>KUCOIN</span>
                   </div>
 
                        <div className='mini_card'>
-                      <span>BINANCE</span>
+                      <span>BINGX</span>
                   </div>
 
                       
@@ -37,19 +37,19 @@ const SectionTwo = () => {
               <div className='mini_card_container_2'>
                   
                   <div className='mini_card'>
-                      <span>BINANCE</span>
+                      <span>HUOBI</span>
                       </div>
                       
 <div className='mini_card'>
-                      <span>BINANCE</span>
+                      <span>CRYPTO</span>
                       </div>
                       
 <div className='mini_card'>
-                      <span>BINANCE</span>
+                      <span>BITGET</span>
                       </div>
                       
 <div className='mini_card'>
-                      <span>BINANCE</span>
+                      <span>OKX</span>
                       </div>
                       
 

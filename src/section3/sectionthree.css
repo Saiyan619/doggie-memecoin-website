@@ -4,6 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-image: url('./bg_img.png');
+    padding-bottom: 50px;
 }.sub_section_three{
     display: flex;
     align-items: center;

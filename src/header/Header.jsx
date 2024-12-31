@@ -7,11 +7,11 @@ const Header = () => {
           
           <div className='hero_container'>
               <div className='hero_left_container'>
-                  <h1>FOO DOGS</h1>
-                  <p>Foo Dogs are 8,888 FREE* NFTs that are a part of The Lucky Club
+                  <h1>$Doogie</h1>
+                  <p>Doogie are 8,888 FREE* Memecoin that are a part of The Lucky Club
                       collection with a ERC721 Token Standard on the Ethereum Blockchain.</p>
                   <div>
-                      <button>MINT</button>
+                      <button>Buy</button>
                       <button>OPENSEA</button>
                   </div>
               </div>

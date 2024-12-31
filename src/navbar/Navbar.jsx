@@ -13,7 +13,7 @@ const Navbar = () => {
     };
 
     return (
-        <div>
+        <div className="navbar_container">
             <nav>
                 <div>
                     <img className="hero_logo" src="./logo (2).png" alt="Logo" />
