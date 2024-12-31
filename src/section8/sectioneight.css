@@ -1,0 +1,48 @@
+
+.section_eight{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.footer_logo_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_logo_container > span {
+    font-size: 25px;
+    font-weight: bold;
+    color: #742f06;
+    font-family: "Alfa Slab One", serif;
+}
+.section_eight_header{
+    text-align: center;
+}.section_eight_header > span{
+    font-size: 20px;
+    /* font-weight: bold; */
+    color: #742f06;
+    font-family: "Alfa Slab One", serif;
+}.section_eight_header > p{
+    font-size: 15px;
+    /* font-weight: bold; */
+    color: #742f06;
+}
+.section_eight_icons{
+    display: flex;
+    gap: 10px;
+}
+
+.icon_container{
+    background-color: #feedbf;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.icon_container > img{
+    width: 30px;
+    display: flex;
+    justify-content: center;
+}
