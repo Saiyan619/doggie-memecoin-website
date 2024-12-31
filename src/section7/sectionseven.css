@@ -1,0 +1,87 @@
+.section_seven{
+    padding: 20px;
+}
+.sub_section_seven{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.section_seven_container{
+    margin-top: 100px;
+}
+
+.sub_section_seven_img_container > img{
+    width: 300px;
+}
+.accordion {
+    max-width: 600px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+h7{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: -5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.chinese_tex6{
+    font-size: 40px;
+    font-weight: bold;
+    color: #742f06;
+    font-family: "Alfa Slab One", serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.accordion-item {
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #feedbf;
+}
+
+.accordion-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 15px;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.accordion-content.show {
+    max-height: 300px; /* Adjust to the expected height of the content */
+    padding: 15px;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    h7{
+        font-size: 30px;
+        font-weight: bolder;
+        margin-top: -5px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sub_section_seven{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-direction: column;
+    }
+}
