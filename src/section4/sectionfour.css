@@ -1,0 +1,52 @@
+.section_four{
+    background-image: url('./counter-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.sub_section_four{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding-top: 130px;
+    /* background-color: white; */
+    
+}
+
+.section_four_text{
+    background-color: white;
+    padding: 40px 40px 40px;
+    border-radius: 10px;
+}
+
+.section_four_text > h5{
+    font-size: 30px;
+    font-weight: bold;
+    color: #742f06;
+    font-family: "Alfa Slab One", serif;
+    text-transform: capitalize;
+}
+
+.section_four_text > p{
+    color: #742f06;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.section_four_btn > button{
+    background-color: #d4722b;
+    border: 3px solid white;
+    width: 100%;
+    padding: 10px 30px;
+    border-radius: 3px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: "Alfa Slab One", serif;
+}

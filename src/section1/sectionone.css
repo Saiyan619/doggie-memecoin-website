@@ -1,0 +1,64 @@
+
+.section_one{
+    text-align: center;
+    background-image: url('./banner1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 50px 0px;
+}
+
+.section_one_hero_text > span{
+    color: #d4722b;
+}.section_one_hero_text > p{
+    color: #742f06;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #742f06;
+    font-family: "Alfa Slab One", serif;
+    text-transform: capitalize;
+}
+
+.card_container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 40px 0 rgba(0, 0, 0, .21);
+    border: none;
+    padding: 40px 20px 20px;
+    margin-bottom: 70px;
+}
+
+.card > span{
+    color: #742f06;
+    font-size: 22px;
+    font-family: "Alfa Slab One", serif;
+}.card > p{
+    color: #742f06;
+    font-size: 13px;
+}.card > img{
+    width: 150px;
+}
+
+@media only screen and (max-width: 800px) {
+    .card_container{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-top: 30px;
+        flex-wrap: wrap;
+    }
+    
+}
